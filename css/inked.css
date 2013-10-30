@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+    font-family: open-sans;
+    color: #222428;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -100px;
+  /* Pad bottom by footer height */
+  padding: 0 0 100px;
+}
+
+/* Set the fixed height of the footer here */
+
+
+.navbar {
+    background-color: white;
+    font-size:20px;
+    border:none;
+}
+
+.navbar-fixed-bottom {
+    height: 100px;
+    background-color: #222428;
+    color:white;
+    font-size:14px;
+}
+
+.navbar-right {
+    padding-top:30px;   
+}
+
+.green-stripe {
+    margin-top:-20px;
+    height: 160px;
+    background-color: #46c570;
+    font-weight:300;
+    font-size:30px;
+    color:white;
+    text-align:center;
+    padding-top:34px;
+}
+
+.main-content {
+    padding-top:80px;
+    padding-bottom:80px;
+    text-align:center;
+}
+
+.section-header {
+    font-weight:300;
+    font-size:24px;
+    margin: 10px 0px;
+}
+
+.section-body {
+    font-size: 15px;   
+}
+
+.phone {
+    font-size:24px;
+    text-align:right;
+}
