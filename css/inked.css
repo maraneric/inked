@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    font-family: open-sans;
+    font-family: 'Quicksand', sans-serif;
     color: #222428;
   /* The html and body elements cannot have any padding or margin. */
 }
@@ -42,7 +42,7 @@ body {
     height: 160px;
     background-color: #46c570;
     font-weight:300;
-    font-size:30px;
+    font-size:36px;
     color:white;
     text-align:center;
     padding-top:34px;
@@ -56,12 +56,19 @@ body {
 
 .section-header {
     font-weight:300;
-    font-size:24px;
-    margin: 10px 0px;
+    font-size:30px;
+    margin: 10px 0px;    
+}
+
+.section-separator {
+  border-bottom: #222428 solid 1px;
+  margin-bottom:10px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .section-body {
-    font-size: 15px;   
+    font-size: 16px;   
 }
 
 .phone {
