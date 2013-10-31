@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-fixed-bottom {
-    height: 100px;
+    height: 110px;
     background-color: #222428;
     color:white;
     font-size:14px;
@@ -42,16 +42,20 @@ body {
     height: 160px;
     background-color: #46c570;
     font-weight:300;
-    font-size:36px;
+    font-size:24px;
     color:white;
     text-align:center;
-    padding-top:34px;
+    padding-top:10px;
 }
 
 .main-content {
-    padding-top:80px;
-    padding-bottom:80px;
+    padding-top:10px;
+    padding-bottom:10px;
     text-align:center;
+}
+
+.section-container {
+    margin: 40px 0px;   
 }
 
 .section-header {
@@ -72,11 +76,36 @@ body {
 }
 
 .phone {
-    margin-top:30px;
     font-size:24px;
-    text-align:right;
 }
 
 .address {
-    margin-top:20px;
+    margin-top:10px;
+}
+
+@media (min-width: 600px) {
+    .green-stripe {
+        font-size:36px;
+    }
+    .main-content {
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+    .navbar-fixed-bottom {
+        height: 100px;
+    }
+    .phone {
+        margin-top:30px;
+        text-align:right;
+    }
+    .address {
+        margin-top:20px;
+    }
+}
+
+@media (min-width: 400px) {
+    .green-stripe {
+        padding-top:34px;
+        font-size:28px;
+    }              
 }
