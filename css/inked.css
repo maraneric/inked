@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Josefin Slab', serif;
     color: #222428;
   /* The html and body elements cannot have any padding or margin. */
 }
@@ -24,6 +24,7 @@ body {
     background-color: white;
     font-size:20px;
     border:none;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .navbar-fixed-bottom {
@@ -46,6 +47,7 @@ body {
     color:white;
     text-align:center;
     padding-top:10px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .main-content {
@@ -59,6 +61,7 @@ body {
 }
 
 .section-header {
+    font-family: 'Quicksand', sans-serif;
     font-weight:300;
     font-size:30px;
     margin: 10px 0px;    
@@ -72,7 +75,7 @@ body {
 }
 
 .section-body {
-    font-size: 16px;   
+    font-size: 18px;   
 }
 
 .phone {
