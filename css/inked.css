@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Raleway', sans-serif;
     color: #222428;
   /* The html and body elements cannot have any padding or margin. */
 }
@@ -34,20 +34,30 @@ body {
     font-size:14px;
 }
 
-.navbar-right {
-    padding-top:30px;   
-}
-
 .green-stripe {
     margin-top:-20px;
-    height: 160px;
+    height: 140px;
     background-color: #46c570;
     font-weight:300;
     font-size:24px;
     color:white;
     text-align:center;
-    padding-top:10px;
+    padding-top:20px;
     font-family: 'Quicksand', sans-serif;
+}
+
+.phone {
+    font-size:36px;
+    font-weight:400;
+}
+
+.phone-separator {
+    border-bottom: white solid 1px;
+    margin-bottom:5px;
+    margin-top:5px;
+    width:10%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .main-content {
@@ -62,34 +72,39 @@ body {
 
 .section-header {
     font-family: 'Quicksand', sans-serif;
-    font-weight:300;
-    font-size:30px;
-    margin: 10px 0px;    
+    font-weight:700;
+    font-size:18px;
+    margin-top:40px;    
 }
 
 .section-separator {
   border-bottom: #222428 solid 1px;
-  margin-bottom:10px;
-  margin-left: 50px;
-  margin-right: 50px;
+    margin-bottom:20px;
+    margin-top:20px;
+    width:20%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .section-body {
-    font-size: 18px;   
+    font-size: 16px;
 }
 
-.phone {
-    font-size:24px;
+.fax {
+    font-size:16px;
 }
 
 .address {
     margin-top:10px;
 }
 
+.affordable {
+    font-family: 'Quicksand', sans-serif;
+    font-size:24px;
+    color:#A3B4C3;
+}
+
 @media (min-width: 600px) {
-    .green-stripe {
-        font-size:36px;
-    }
     .main-content {
         padding-top:40px;
         padding-bottom:40px;
@@ -97,18 +112,14 @@ body {
     .navbar-fixed-bottom {
         height: 100px;
     }
-    .phone {
-        margin-top:30px;
+    .fax {
+        margin-top:36px;
         text-align:right;
     }
     .address {
         margin-top:20px;
     }
-}
-
-@media (min-width: 400px) {
-    .green-stripe {
-        padding-top:34px;
-        font-size:28px;
-    }              
+    .navbar-right {
+        padding-top:30px;   
+    }
 }
