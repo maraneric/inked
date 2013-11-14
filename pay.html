@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-    <title>Inked Bailbonds</title>
+    <title>Inked Bailbonds - Pay Now</title>
 
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
    
@@ -65,60 +65,27 @@
           </div>
         </div>
 
-      <div class="green-stripe">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                      <div class="phone">
-                          (916) 264-1100
-                      </div>
-                      <div class="phone-separator">
-                      </div>
-                      <div class="service">
-                        1 Hour or Less Service
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
+
       <div class="container">
           <div class="main-content">
               <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 affordable">
-                      Don't let it be a financial situation, affordable payments plans available
+                      In order to accomodate your needs better, we now accept online payments via PayPal. You can pay with a credit card or directly from your bank account.<br/>
+                      1. Please enter the name on the account that you are making a payment for and then click the "Buy Now" button below.<br/>
+                      2. On the next screen, enter the amount that you would like to pay at this time.
+                      3. If you have any questions, feel free to give us a call at (916) 264-1100.
                   </div>
               </div>
             <div class="row">
-              <div class="col-sm-4 section-container">
-                  <img src="img/credit@2x.png" height="102" width="102">
-                  <div class="section-header">
-                      CREDIT CARD RELEASE BY PHONE
-                  </div>
-                  <div class="section-separator"></div>
-                  <div class="section-body">
-                      Bail Process Simplified, where in some cases we can accept a credit card over the phone to have your loved one released from jail. The paperwork associated with the bail bond may be completed at a later time. Call for details.
-                  </div>
-              </div>
-              <div class="col-sm-4 section-container">
-                  <img src="img/discount@2x.png" height="104" width="104" style="margin-top:-2px;">
-                  <div class="section-header">
-                      20% DISCOUNT AVAILABLE
-                  </div>
-                  <div class="section-separator"></div>
-                  <div class="section-body">
-                      If qualified.<br/>Call (916) 264-1100 for details.
-                  </div>                  
-              </div>
-              <div class="col-sm-4 section-container">
-                  <img src="img/usa@2x.png" height="102" width="102">
-                  <div class="section-header">
-                      NATIONWIDE SERVICE AVAILABLE
-                  </div>
-                  <div class="section-separator"></div>
-                  <div class="section-body">
-                      Nationwide service is available for Californian natives who might be in another state that might need our help, or a family member who doesn't live in California, but you want their release from custody.
-                  </div>                  
-              </div>
+              <div class="col-sm-2 col-sm-offset-5">
+                <div id="paypal-container">
+                  <script src="js/paypal-button.min.js?merchant=6446MKWG6UC44" 
+                      data-button="buynow" 
+                      data-amount-editable="100"
+                      data-name="Payment"
+                  ></script>
+                </div>
+              </div>            
             </div>
           </div>
           
@@ -146,5 +113,12 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script>
+    
+      $(document).ready(function() {
+        $('.paypal-group').addClass('form-group');
+        $('.paypal-input').addClass('form-control');
+      });
+    </script>
   </body>
 </html>
